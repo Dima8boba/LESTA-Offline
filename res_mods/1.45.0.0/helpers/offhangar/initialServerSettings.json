@@ -1,0 +1,459 @@
+{
+  "additionalBonus_config": {
+    "applyCount": 1000,
+    "bonusFactor": 50.0,
+    "enabled": true
+  },
+  "advent_calendar_config": {
+    "calendarURL": "https://calendar.tanks.mail.ru/igb/$LANGUAGE_CODE/",
+    "popupIntervalInHours": 24,
+    "isEnabled": true
+  },
+  "battlePass_config": {
+    "finalReward": {},
+    "mode": "enabled",
+    "rewards": {},
+    "seasonsHistory": {
+      "20200101": {
+        "maxBaseLevel": 10,
+        "maxPostLevel": 42,
+        "rewardVehicles": [15697, 22017]
+      },
+      "20200102": {
+        "maxBaseLevel": 7,
+        "maxPostLevel": 69,
+        "rewardVehicles": [15697, 22017]
+      }
+    }
+  },
+  "battle_royale_config": {
+    "isEnabled": true
+  },
+  "blueprints_config": {
+    "allowBlueprintsConversion": true,
+    "isEnabled": true,
+    "levels": {
+      "2": [4, 0.25, [1, 4], [0.01, 0.99]],
+      "3": [4, 0.2, [1, 4], [0.02, 0.98]],
+      "4": [4, 0.18, [1, 4], [0.05, 0.95]],
+      "5": [6, 0.15, [2, 6], [0.1, 0.9]],
+      "6": [6, 0.15, [2, 6], [0.25, 0.75]],
+      "7": [8, 0.12, [3, 8], [0.4, 0.6]],
+      "8": [8, 0.12, [3, 10], [0.75, 0.25]],
+      "9": [10, 0.09, [3, 12], [0.9, 0.1]],
+      "10": [12, 0.07, [4, 12], [0.95, 0.05]]
+    },
+    "useBlueprintsForUnlock": true
+  },
+  "bonus_caps_override_config": {},
+  "bootcampBonuses": {
+    "dossier": {
+      "1": {
+        "('singleAchievements', 'bootcampMedal')": {
+          "type": "set",
+          "unique": true,
+          "value": 1
+        }
+      }
+    },
+    "gold": 500,
+    "premium_plus": 3
+  },
+  "clanProfile": {
+    "isEnabled": true
+  },
+  "clans_config": {
+    "clanQuestUrl": "",
+    "craftMachineUrl": "",
+    "isClanNotificationEnabled": true
+  },
+  "collector_vehicle_config": {
+    "enabled": true
+  },
+  "crystal_rewards_config": {
+    "limits": {
+      "level": {
+        "10": 100
+      },
+      "vehicle": {}
+    },
+    "rewards": {
+      "level": {
+        "10": {
+          "1": {
+            "False": {"1": 5, "2": 5, "3": 5, "4": 3, "5": 3, "6": 3, "7": 3, "8": 3, "9": 3, "10": 3},
+            "True": {"1": 7, "2": 7, "3": 7, "4": 5, "5": 5, "6": 5, "7": 5, "8": 5, "9": 5, "10": 5}
+          },
+          "22": {
+            "False": {"1": 5, "2": 5, "3": 5, "4": 3, "5": 3, "6": 3, "7": 3, "8": 3, "9": 3, "10": 3},
+            "True": {"1": 7, "2": 7, "3": 7, "4": 5, "5": 5, "6": 5, "7": 5, "8": 5, "9": 5, "10": 5}
+          },
+          "24": {
+            "False": {"1": 5, "2": 5, "3": 5, "4": 5, "5": 5, "6": 5, "7": 3, "8": 3, "9": 3, "10": 3, "11": 3, "12": 3, "13": 3, "14": 3, "15": 3, "16": 3, "17": 3, "18": 3, "19": 3, "20": 3},
+            "True": {"1": 7, "2": 7, "3": 7, "4": 7, "5": 7, "6": 7, "7": 5, "8": 5, "9": 5, "10": 5, "11": 5, "12": 5, "13": 5, "14": 5, "15": 5, "16": 5, "17": 5, "18": 5, "19": 5, "20": 5}
+          }
+        }
+      },
+      "vehicle": {}
+    }
+  },
+  "daily_quests_config": {
+    "enabled": true,
+    "epicRewardEnabled": true,
+    "epicRewardNeedsToken": 45,
+    "rerollEnabled": true,
+    "rerollTimeout": 14400
+  },
+  "disabledCustomizations": [],
+  "disabledPMOperations": {},
+  "disabledPersonalMissions": {},
+  "dog_tags_config": {
+    "enableComponentUnlocking": true,
+    "enableDogTagsCustomizationScreen": true,
+    "enableDogTagsInBattle": true,
+    "enableDogTagsInPostBattle": true,
+    "enableSkillComponents": true,
+    "enabled": true
+  },
+  "elenSettings": {
+    "elenUpdateInterval": 86400,
+    "isElenEnabled": true
+  },
+  "enhancements_config": {
+    "enabled": true,
+    "forbiddenVehTypes": [],
+    "host": "fake://",
+    "slots": 1,
+    "url": "/wgapi/server_settings?version={version}",
+    "version": 1
+  },
+  "epic_config": {
+    "arenaTypeIDs": [983136, 984048],
+    "autoStart": true,
+    "creditsMax": 500000,
+    "creditsMinThreshold": 150000,
+    "creditsModifier": 1.0,
+    "defeatedBonusCredits": 15000,
+    "discountVehicles": [],
+    "epicMetaGame": {
+      "defaultReserves": {
+        "AT-SPG": [3, 5],
+        "SPG": [1],
+        "heavyTank": [2, 3, 6],
+        "lightTank": [6],
+        "mediumTank": [2, 4]
+      },
+      "defaultSlots": {
+        "AT-SPG": 2,
+        "SPG": 1,
+        "heavyTank": 3,
+        "lightTank": 1,
+        "mediumTank": 2
+      },
+      "maxBattleDuration": 2700,
+      "maxCombatReserveLevel": 5,
+      "metaLevel": {
+        "abilityPointsForLevel": [1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3],
+        "famePtsByRank": {
+          "1": 0,
+          "2": 150,
+          "3": 350,
+          "4": 600,
+          "5": 900,
+          "6": 1200
+        },
+        "famePtsToProgress": [600, 700, 800, 1000, 1200, 1300, 1400, 1500, 1600, 1750, 1900, 2350, 2600, 3000, 0],
+        "maxLevel": 15,
+        "maxPrestigeLevel": 0,
+        "maxPrestigeRewardLevel": 0
+      },
+      "rewards": {
+        "combatReserves": {
+          "1": {"levels": ["recon_epic_level1", "recon_epic_level2", "recon_epic_level3", "recon_epic_level4", "recon_epic_level5"]},
+          "2": {"levels": ["artillery_epic_level1", "artillery_epic_level2", "artillery_epic_level3", "artillery_epic_level4", "artillery_epic_level5"]},
+          "3": {"levels": ["bomber_epic_level1", "bomber_epic_level2", "bomber_epic_level3", "bomber_epic_level4", "bomber_epic_level5"]},
+          "4": {"levels": ["smoke_epic_level1", "smoke_epic_level2", "smoke_epic_level3", "smoke_epic_level4", "smoke_epic_level5"]},
+          "5": {"levels": ["inspire_level1", "inspire_level2", "inspire_level3", "inspire_level4", "inspire_level5"]},
+          "6": {"levels": ["passive_engineering_level1", "passive_engineering_level2", "passive_engineering_level3", "passive_engineering_level4", "passive_engineering_level5"]}
+        }
+      }
+    },
+    "isEnabled": true,
+    "kickLockedFraction": 0.1,
+    "kickLockedQueueSize": 1800,
+    "maps": ["208_bf_epic_normandy", "209_wg_epic_suburbia"],
+    "maxBattlesForSameTeam": 3.0,
+    "maxQueueSize": 2000,
+    "maxTimeInQueue": 1200,
+    "peripheryIDs": [],
+    "reservesAvailableInFLMenu": true,
+    "seasons": {},
+    "validVehicleLevels": [8],
+    "winnerBonusCredits": 30000
+  },
+  "event_progression_config": {
+    "exchange": {
+      "exchangeRate": 250,
+      "expireTimestamp": 1609455600,
+      "loginDeadlineTimestamp": 1613865600
+    },
+    "isEnabled": true,
+    "isFrontLine": true,
+    "isSteelHunter": true,
+    "maxRewardPoints": 24,
+    "questPrefix": "steel_hunter",
+    "rewardPointsTokenID": "",
+    "rewardStyles": [[172, 4], [224, 8]],
+    "rewardVehicles": [[44545, 6], [61441, 10], [7169, 12]],
+    "seasonPointsTokenID": "",
+    "url": ""
+  },
+  "file_server": {
+    "clan_emblems": {"url_template": "http://tanks.mail.ru/dcont/clans/emblems/%d/emblem_64x64_tank.png"},
+    "clan_emblems_128": {"url_template": "http://tanks.mail.ru/dcont/clans/emblems/%d/emblem_128x128_client.png"},
+    "clan_emblems_16": {"url_template": "http://tanks.mail.ru/dcont/clans/emblems/%d/emblem_16x16_client.png"},
+    "clan_emblems_256": {"url_template": "http://tanks.mail.ru/dcont/clans/emblems/%d/emblem_256x256_client.png"},
+    "clan_emblems_big": {"url_template": "http://tanks.mail.ru/dcont/clans/emblems/%d/emblem_64x64.png"},
+    "clan_emblems_small": {"url_template": "http://tanks.mail.ru/dcont/clans/emblems/%d/emblem_32x32.png"},
+    "missions_decoration": {"url_template": "http://tanks.mail.ru/dcont/decorations/%s/%s.png"},
+    "missions_token_descrs": {"url_template": "http://tanks.mail.ru/dcont/tokens/tokens_%s.xml"},
+    "missions_token_image": {"url_template": "http://tanks.mail.ru/dcont/tokens/%s/%s.png"},
+    "offers": {"url_template": "https://tanks.mail.ru/dcont/offers/"},
+    "rare_achievements_images": {"url_template": "http://tanks.mail.ru/dcont/achievements/medals/67x71/%d.png"},
+    "rare_achievements_images_big": {"url_template": "http://tanks.mail.ru/dcont/achievements/medals/180x180/%d.png"},
+    "rare_achievements_texts": {"url_template": "http://tanks.mail.ru/dcont/achievements/medals/medals_%s.xml"}
+  },
+  "frontlineSettings": {
+    "flHostUrl": "",
+    "isEpicTrainingEnabled": true
+  },
+  "hallOfFame": {
+    "hofHostUrl": "https://wgris.tanks.mail.ru",
+    "isHofEnabled": true,
+    "isStatusEnabled": true
+  },
+  "hero_vehicles": {
+    "isEnabled": true,
+    "vehicles": {}
+  },
+  "isAnonymizerEnabled": true,
+  "isBattleBoostersEnabled": true,
+  "isBootcampEnabled": true,
+  "isBuyPotapovQuestSlotEnabled": true,
+  "isBuyPotapovQuestTileEnabled": true,
+  "isCommandBattleEnabled": true,
+  "isCrewBooksEnabled": true,
+  "isCrewBooksPurchaseEnabled": true,
+  "isCrewBooksSaleEnabled": true,
+  "isCrewSkinsEnabled": true,
+  "isCustomizationEnabled": true,
+  "isDeluxeDevicesEnabled": true,
+  "isEpicRandomAchievementsEnabled": true,
+  "isEpicRandomEnabled": true,
+  "isEpicRandomMarkOfMasteryEnabled": true,
+  "isEpicRandomMarksOnGunEnabled": true,
+  "isFieldPostEnabled": true,
+  "isGlobalMapEnabled": true,
+  "isGoldFishEnabled": true,
+  "isLinkedSetEnabled": true,
+  "isLootBoxesEnabled": true,
+  "isManualEnabled": true,
+  "isMultinationalVehiclesEnabled": true,
+  "isNationChangeEnabled": true,
+  "isOffersEnabled": true,
+  "isPM2QuestEnabled": true,
+  "isPMBattleProgressEnabled": true,
+  "isPreferredMapsEnabled": true,
+  "isPremiumInPostBattleEnabled": true,
+  "isPromoLoggingEnabled": true,
+  "isReferralProgramEnabled": true,
+  "isRegularQuestEnabled": true,
+  "isSandboxEnabled": true,
+  "isSpecBattleMgrEnabled": true,
+  "isTankmanRestoreEnabled": true,
+  "isTrophyDevicesEnabled": true,
+  "isTutorialEnabled": true,
+  "isVehicleRestoreEnabled": true,
+  "isVehiclesCompareEnabled": 2,
+  "lootBoxes_config": {
+    "enabled": false
+  },
+  "magnetic_auto_aim_config": {
+    "enableForTags": ["wheeledVehicle"],
+    "enabledForTags": ["wheeledVehicle"]
+  },
+  "marathon_config": {
+    "finishSaleTime": 1582624440,
+    "marathonUrl": "https://marathon.tanks.mail.ru/$LANGUAGE_CODE/",
+    "rewardVehicleUrl": "https://tanks.mail.ru/id/signin/token/?account_id=$DB_ID&token=$WGNI_TOKEN&continue_on_failure=1&next=https://tanks.mail.ru/shop/wot/filter/?name=m54_renegade"
+  },
+  "maxSPGinSquads": 3,
+  "piggyBank_config": {
+    "arena": [1, 22, 24, 5, 27, 20, 21, 13],
+    "cycleLength": 172800,
+    "cycleStartTime": 1556841600,
+    "enabled": true,
+    "multiplier": 0.1,
+    "threshold": 750000
+  },
+  "preferredMaps_config": {
+    "defaultSlots": 1,
+    "mapIDs": [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 24, 26, 28, 31, 34, 49, 54, 55, 60, 70, 74, 75, 76, 77, 83, 84, 87, 88, 89],
+    "premiumSlots": 1,
+    "slotCooldown": 14400
+  },
+  "premQuests_config": {
+    "enabled": true
+  },
+  "premSquad_config": {
+    "creditsFactor": {
+      "premium_owner_squadmate": 0.1,
+      "premium_plus": 0.15,
+      "premium_vip": 0.15
+    },
+    "enabled": true
+  },
+  "prem_battle_bonuses": {
+    "0": {"1": 1.5, "2": 1.5, "4": 1.5},
+    "1": {"1": 1.5, "2": 1.5, "4": 1.5},
+    "2": {"1": 1.5, "2": 1.5, "4": 1.5}
+  },
+  "progressive_reward_config": {
+    "isEnabled": true,
+    "levelTokenID": "pr:level",
+    "maxLevel": 5,
+    "probabilityTokenID": "pr:probability"
+  },
+  "promoCutouts": 1,
+  "randomMapsForDemonstrator": {},
+  "rankedBattles": {
+    "infoPageUrl": "https://rblb.tanks.mail.ru/#/rules",
+    "introPageUrl": "https://webbrg.tanks.mail.ru/$LANGUAGE_CODE/promocontent/ranked",
+    "rblbHostUrl": "https://rblb.tanks.mail.ru",
+    "seasonGapPageUrl": "https://rblb.tanks.mail.ru/#/between_seasons",
+    "shopPageUrl": "https://rblb.tanks.mail.ru/#/bonds_shop",
+    "yearRatingPageUrl": "https://rblb.tanks.mail.ru/#/yearly"
+  },
+  "ranked_config": {
+    "isEnabled": true
+  },
+  "reactiveCommunicationConfig": {
+    "isEnabled": true,
+    "url": ""
+  },
+  "regional_settings": {
+    "starting_day_of_a_new_week": 0,
+    "starting_time_of_a_new_day": 0,
+    "starting_time_of_a_new_game_day": 0
+  },
+  "roaming": [
+    1,
+    1,
+    [[1, 1, 3499999999, "CT"]],
+    []
+  ],
+  "seniority_awards_config": {
+    "autoOpenTime": 1579910400,
+    "enabled": true,
+    "hangarWidgetVisibility": true,
+    "secretBoxToken": "PlayerSeniorityAwardSecretBox"
+  },
+  "sessionStats": {
+    "WTR": {
+      "enabled": true,
+      "host": "wgrms.tanks.mail.ru"
+    },
+    "isLinkWithHoFEnabled": true,
+    "isSessionStatsEnabled": true
+  },
+  "shop": {
+    "backendHostUrl": "https://ingameshop.tanks.mail.ru",
+    "hostUrl": "https://shop.tanks.mail.ru",
+    "isStorageEnabled": true
+  },
+  "spgRedesignFeatures": {
+    "markTargetAreaEnabled": true,
+    "stunEnabled": true
+  },
+  "strongholdSettings": {
+    "isExternalBattleEnabled": true,
+    "isLeaguesEnabled": true,
+    "isStrongholdsEnabled": true,
+    "wgshHostUrl": "https://wgsh.tanks.mail.ru"
+  },
+  "telecom_config": {
+    "bundles": {
+      "1": {"operator": "Rostelecom", "vehicles": [62977]},
+      "2": {"operator": "Rostelecom", "vehicles": [62977]},
+      "3": {"operator": "Rostelecom", "vehicles": [62977]},
+      "4": {"operator": "Beltelecom", "vehicles": [48897]},
+      "5": {"operator": "Beltelecom", "vehicles": [48897]},
+      "6": {"operator": "Beltelecom", "vehicles": [48897]},
+      "7": {"operator": "Kyivstar", "vehicles": [46337]},
+      "8": {"operator": "Kyivstar", "vehicles": [46337]},
+      "9": {"operator": "Kyivstar", "vehicles": [46337]},
+      "10": {"operator": "Kazakhtelecom", "vehicles": [46081]},
+      "11": {"operator": "Kazakhtelecom", "vehicles": [46081]},
+      "12": {"operator": "Kazakhtelecom", "vehicles": [46081]},
+      "13": {"operator": "Twitchprime", "vehicles": [61473]},
+      "14": {"operator": "Twitchprime", "vehicles": [61473]},
+      "15": {"operator": "Twitchprime", "vehicles": [61473]},
+      "16": {"operator": "BeelineKZ", "vehicles": [46081]},
+      "17": {"operator": "BeelineKZ", "vehicles": [46081]},
+      "18": {"operator": "BeelineKZ", "vehicles": [46081]}
+    },
+    "isEnabled": true
+  },
+  "tournamentSettings": {
+    "isExternalBattleEnabled": true,
+    "isTournamentEnabled": true,
+    "tmsHostUrl": ""
+  },
+  "unit_assembler_config": {
+    "epic": {
+      "allowedTankLevels": 256,
+      "extendTierFilter": [],
+      "hardVoiceCheckTime": 7.0,
+      "isAssemblingEnabled": true,
+      "tankLevelPreferenceEnabled": true,
+      "voiceChatPreferenceEnabled": true
+    },
+    "squad": {
+      "allowedTankLevels": 2046,
+      "extendTierFilter": [3.0, 11.0, 15.0, 15.5, 16.0, 17.0, 18.0, 19.0, 20.0],
+      "hardVoiceCheckTime": 7.0,
+      "isAssemblingEnabled": true,
+      "tankLevelPreferenceEnabled": true,
+      "voiceChatPreferenceEnabled": true
+    }
+  },
+  "voipDomain": "www.wotp.vivox.com",
+  "voipUserDomain": "wotp.vivox.com",
+  "wallet": [true, true],
+  "wgcg": {
+    "gateUrl": "https://lgc.tanks.mail.ru/",
+    "isEnabled": true,
+    "isWhiteListEnabled": true,
+    "loginOnStart": true
+  },
+  "wgm_offline_emergency_config": {
+    "enabled": true
+  },
+  "xmpp_alt_connections": [["tanks.mail.ru", 5333]],
+  "xmpp_bosh_connections": [["tanks.mail.ru", 80]],
+  "xmpp_connections": [["tanks.mail.ru", 5222]],
+  "xmpp_enabled": true,
+  "xmpp_host": "jabber.tanks.mail.ru",
+  "xmpp_muc_enabled": true,
+  "xmpp_muc_services": [
+    {
+      "enabled": true,
+      "format": "clan-$clanDBID",
+      "hostname": "clans.tanks.mail.ru",
+      "type": 3,
+      "userString": ""
+    }
+  ],
+  "xmpp_port": 5222,
+  "xmpp_resource": "wot"
+}

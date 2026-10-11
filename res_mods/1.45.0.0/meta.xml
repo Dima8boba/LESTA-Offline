@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<meta>
+    <name>OffHangar</name>
+    <version>1.44.0.0</version>
+    <gameVersion>1.44.0.0</gameVersion>
+    <author>dims</author>
+    <description>Offline hangar mod for 1.44</description>
+    <mountroot>scripts/client</mountroot>
+</meta>
