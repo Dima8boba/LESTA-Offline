@@ -1,2 +1,2 @@
-# LESTA-Offline
-LESTA-Offline_res_mods(test)
+# Мод для офланй запуска клиента Мир Танков . 
+# сырой не доделаный
