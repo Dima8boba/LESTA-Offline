@@ -1,0 +1,100 @@
+Структура папок тома Windows10
+Серийный номер тома: 4626-620D
+C:.
+│   structure.txt
+│   Структура папок.ps1
+│   
+└───res_mods
+    ├───1.44.0.0
+    │   │   meta.xml
+    │   │   readme.txt
+    │   │   
+    │   ├───helpers
+    │   │   │   .DS_Store
+    │   │   │   
+    │   │   └───offhangar
+    │   │           initialServerSettings.json
+    │   │           
+    │   ├───scripts
+    │   │   ├───client
+    │   │   │   └───gui
+    │   │   │       └───mods
+    │   │   │           │   mod_Map_selector_v120.py
+    │   │   │           │   mod_Map_selector_v120.pyc
+    │   │   │           │   mod_nosecretvehicletag.py
+    │   │   │           │   mod_nosecretvehicletag.pyc
+    │   │   │           │   mod_offhangar.py
+    │   │   │           │   mod_offhangar.pyc
+    │   │   │           │   
+    │   │   │           └───offhangar
+    │   │   │               │   ai.py
+    │   │   │               │   ai.pyc
+    │   │   │               │   armour.py
+    │   │   │               │   battle.py
+    │   │   │               │   battle.pyc
+    │   │   │               │   bots.py
+    │   │   │               │   bots.pyc
+    │   │   │               │   cache.py
+    │   │   │               │   cache.pyc
+    │   │   │               │   data.py
+    │   │   │               │   data.pyc
+    │   │   │               │   logging.py
+    │   │   │               │   logging.pyc
+    │   │   │               │   navdata.py
+    │   │   │               │   navdata.pyc
+    │   │   │               │   pdc.py
+    │   │   │               │   pdc.pyc
+    │   │   │               │   physics.py
+    │   │   │               │   physics.pyc
+    │   │   │               │   requests.py
+    │   │   │               │   requests.pyc
+    │   │   │               │   server.py
+    │   │   │               │   server.pyc
+    │   │   │               │   shooting.py
+    │   │   │               │   shooting.pyc
+    │   │   │               │   utils.py
+    │   │   │               │   utils.pyc
+    │   │   │               │   _constants.py
+    │   │   │               │   _constants.pyc
+    │   │   │               │   __init__.py
+    │   │   │               │   __init__.pyc
+    │   │   │               │   
+    │   │   │               ├───mapdata
+    │   │   │               │       m_506_battle_for_moscow.py
+    │   │   │               │       m_506_battle_for_moscow.pyc
+    │   │   │               │       __init__.py
+    │   │   │               │       __init__.pyc
+    │   │   │               │       
+    │   │   │               └───Новая папка
+    │   │   └───common
+    │   │       └───persistent_data_cache_common
+    │   │               cached_data.py
+    │   │               cached_data.pyc
+    │   │               caches.py
+    │   │               caches.pyc
+    │   │               common.py
+    │   │               common.pyc
+    │   │               configs.py
+    │   │               configs.pyc
+    │   │               data_providers.py
+    │   │               data_providers.pyc
+    │   │               events.py
+    │   │               events.pyc
+    │   │               manager.py
+    │   │               manager.pyc
+    │   │               serializers.py
+    │   │               serializers.pyc
+    │   │               types.py
+    │   │               types.pyc
+    │   │               __init__.py
+    │   │               __init__.pyc
+    │   │               
+    │   └───text
+    │       └───ru
+    │           └───lc_messages
+    │                   intunion_vehicles.mo
+    │                   techtree.mo
+    │                   
+    └───configs
+            bots_config.json
+            
